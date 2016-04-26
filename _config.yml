@@ -19,9 +19,9 @@ menu:
   - title: 'Home'
     url: '/'
   - title: 'Contact'
-    url: '/Contact'
+    url: '/contact'
   - title: 'About this Project'
-    url: '/#'
+    url: '//gsoc-scrapinghub-support-for-spiders-in-other-programming-languages/'
   - title: 'Feed'
     url: '/feed.xml'
 
