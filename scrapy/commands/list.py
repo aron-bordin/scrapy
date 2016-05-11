@@ -10,5 +10,12 @@ class Command(ScrapyCommand):
         return "List available spiders"
 
     def run(self, args, opts):
+        print("[Scrapy Spiders]")
         for s in sorted(self.crawler_process.spider_loader.list()):
             print(s)
+        external = self.crawler_process.spider_loader.list_external()
+
+        if external:
+            print('\n[External Spiders]')
+            for s in sorted(external):
+                print(s)

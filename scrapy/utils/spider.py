@@ -1,5 +1,7 @@
+import json
 import logging
 import inspect
+import os
 
 import six
 
@@ -27,6 +29,14 @@ def iter_spider_classes(module):
            obj.__module__ == module.__name__ and \
            getattr(obj, 'name', None):
             yield obj
+
+def iter_external_spiders(path='.'):
+    path = os.path.abspath(path)
+    ext = os.path.join(path, 'external.json')
+    if os.path.isfile(ext):
+        return json.loads(open(ext).read())
+
+    return []
 
 def spidercls_for_request(spider_loader, request, default_spidercls=None,
                           log_none=False, log_multiple=False):
