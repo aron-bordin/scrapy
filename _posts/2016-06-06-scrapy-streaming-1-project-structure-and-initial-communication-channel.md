@@ -54,3 +54,11 @@ I've written a big part of the documentation to better define the API under deve
 The documentation contains the whole communication channel, a simple tutorial, and descriptions about the project behavior.
 
 Pull request: [https://github.com/scrapy-plugins/scrapy-streaming/pull/7](https://github.com/scrapy-plugins/scrapy-streaming/pull/7)
+
+
+## Communication Channel
+
+I started to work in the communication channel, defining the classes responsible for connecting external processes with scrapy, and implemented the basic message wrappers.
+
+PR: [ https://github.com/scrapy-plugins/scrapy-streaming/pull/3
+]( https://github.com/scrapy-plugins/scrapy-streaming/pull/3)
