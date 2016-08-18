@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scrapy-Streaming [8/9] - Scrapy With Node.js
+title: 'Scrapy-Streaming [8/9] - Scrapy With Node.js'
 image:
   feature: feature-scrapy.jpg
 date: 2016-08-18T00:24:32-04:00
