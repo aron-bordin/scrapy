@@ -133,7 +133,7 @@ Here, I highlight some topics that is not yet done.
 
 * Publish the documentation in a official page (currently I'm using my [personal readthedocs page to store the docs](http://gsoc2016.readthedocs.io/).)
 * Publish Scrapy Streaming to PIP
-* Publish helper packages to the following repositories (all the code all ready to be published):
+* Publish helper packages to the following repositories (the code is ready to be published):
     * Java -> Maven Central Repository
     * R -> CRAN
     * Node.js -> NPM
