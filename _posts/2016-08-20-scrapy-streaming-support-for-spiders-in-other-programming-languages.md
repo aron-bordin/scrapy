@@ -141,7 +141,7 @@ Here, I highlight some topics that is not yet done.
 
 # Final Considerations
 
-This summer was very good for me. I was able to develop the project and I achieved my goals with this project (from abstract). Now, it's
+This summer was very good for me. I was able to develop the project and I achieved my goals with this project. Now, it's
 possible and easy to implement spiders using your preferred programming language.
 
 I received an awesome support and I'd like to thank my mentors (@eLRuLL and @ptremberth), and another GSoC student (@Preetwinder) for all the help in this project.
